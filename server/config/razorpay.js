@@ -1,6 +1,11 @@
-const Razorpay = require("razorpay");
+// const Razorpay = require("razorpay");
 
-exports.instance = new Razorpay({
-	key_id: process.env.RAZORPAY_KEY,
-	key_secret: process.env.RAZORPAY_SECRET,
-});
+// const instance = new Razorpay({
+//     key_id: process.env.RAZORPAY_KEY,
+//     key_secret: process.env.RAZORPAY_SECRET,
+// });
+
+// module.exports = instance;
+
+// TEMPORARY MOCK FOR DEVELOPMENT
+module.exports = {};
